@@ -1,0 +1,27 @@
+﻿@page "/"
+
+<MudDataGrid @ref="refMudDataGrid"
+			 T="Element"
+			 ReadOnly=@true
+			 Virtualize="true"
+			 FixedHeader="true">
+
+	<ToolBarContent>
+		<MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="() => ExportDataAsync(ExportFormat.CSV)">
+			CSV
+		</MudButton>
+
+		<MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="() => ExportDataAsync(ExportFormat.Excel)">
+			Excel
+		</MudButton>
+	</ToolBarContent>
+
+	<Columns>
+		<PropertyColumn Property="x => x.Number" Title="Number" />
+		<PropertyColumn Property="x => x.Sign" Title="Sign" />
+		<PropertyColumn Property="x => x.Name" Title="Name" />
+		<PropertyColumn Property="x => x.Position" Title="Position" />
+		<PropertyColumn Property="x => x.Molar" Title="Molar" />
+		<PropertyColumn Property="x => x.Group" Title="Group" />
+	</Columns>
+</MudDataGrid>
