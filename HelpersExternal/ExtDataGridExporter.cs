@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿//Credits: https://gist.github.com/Apflkuacha/3eaa55ca52675329ce76f5cd725e472e#gistcomment-5358988
+
+using System.Globalization;
 using System.Reflection;
 using System.Text;
 using DocumentFormat.OpenXml;

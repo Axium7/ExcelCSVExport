@@ -34,4 +34,13 @@ public static class HelpDataGridExporter<T>
 		await SaveExportToFileAsync(fileContentAsByteArray, strFileFullPath);
 
 	}
+
+	private static async Task SaveExportToFileAsync(
+		byte[] fileContentAsByteArray,
+		string strFileFullPath
+	)
+	{
+		// Save the file asynchronously
+		await File.WriteAllBytesAsync(strFileFullPath, fileContentAsByteArray);
+	}
 }

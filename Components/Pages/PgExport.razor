@@ -1,10 +1,11 @@
 ﻿@page "/"
 
-<MudDataGrid @ref="refMudDataGrid"
-			 T="Element"
+<MudDataGrid @ref=@refMudDataGrid
+			 T=@Element
+			 Items=@lstElements
 			 ReadOnly=@true
-			 Virtualize="true"
-			 FixedHeader="true">
+			 Virtualize=@true
+			 FixedHeader=@true>
 
 	<ToolBarContent>
 		<MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="() => ExportDataAsync(ExportFormat.CSV)">

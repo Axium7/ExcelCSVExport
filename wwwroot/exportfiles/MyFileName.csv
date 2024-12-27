@@ -1,0 +1,21 @@
+Number,Sign,Name,Position,Molar,Group
+1,H,Hydrogen,1,1.01,Periodic Table
+2,He,Helium,18,4,Periodic Table
+3,Li,Lithium,1,6.94,Periodic Table
+4,Be,Beryllium,2,9.01,Periodic Table
+5,B,Boron,13,10.81,Periodic Table
+6,C,Carbon,14,12.01,Periodic Table
+7,N,Nitrogen,15,14.01,Periodic Table
+8,O,Oxygen,16,16,Periodic Table
+9,F,Fluorine,17,19,Periodic Table
+10,Ne,Neon,18,20.18,Periodic Table
+11,Na,Sodium,1,22.99,Periodic Table
+12,Mg,Magnesium,2,24.3,Periodic Table
+13,Al,Aluminium,13,26.98,Periodic Table
+14,Si,Silicon,14,28.08,Periodic Table
+15,P,Phosphorus,15,30.97,Periodic Table
+16,S,Sulfur,16,32.06,Periodic Table
+17,Cl,Chlorine,17,35.45,Periodic Table
+18,Ar,Argon,18,39.95,Periodic Table
+19,K,Potassium,1,39.1,Periodic Table
+20,Ca,Calcium,2,40.08,Periodic Table

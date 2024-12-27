@@ -16,8 +16,6 @@ public partial class PgExport
 
 	private async Task ExportDataAsync(ExportFormat format)
 	{
-		#region Validation
-
 		//Assign a file name
 		string strFileName = HelpFileManagement.CreateFileName("MyFileName");
 

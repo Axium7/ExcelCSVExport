@@ -1,6 +1,4 @@
-﻿using ExcelCSVExport.Models;
-
-namespace ExcelCSVExport.Helpers;
+﻿namespace ExcelCSVExport.Helpers;
 
 public class Element
 {
